@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <!-- Custom css -->
+  <link rel="stylesheet" href="/dist/css/styles.css">
+  <!-- Fontawesome css -->
+  <link rel="stylesheet" href="/fontawesome/css/all.css">
+  <!-- East Sea Dokdo fonts link-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+  <!-- Hanalei Fill fonts link-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+  <header>
+    <div id="title">
+      <h1>Nelson Rolihlahla Mandela</h1>
+      <p>South African anti-apartheid revolutionary!</p>
+    </div>
+  </header>
+  <main>
+    <div id="img-div" class="img-container">
+      <img id="image"src="./img/slide1.png" alt="Nelson Mandela">
+      <div id="img-caption">
+        <p>Nelson Rolihlahla Mandela: He was a political leader and philanthropist who served as President of South Africa from 1994 to 1999.</p>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Card -->
+    <div class="card">
+      <div id="tribute-info">
+        <h2>The journey of the "Father of The Nation", Tata!</h2>
+      </div>
+        <ul>
+          <li><strong>1918: </strong>Mandela was born on 18 July 1918 in the village of Mvezo in Umtata, then part of South Africa's Cape Province.</li>
+          <li><strong>1941: </strong>Returning to Mqhekezweni in December 1940, Mandela found that Jongintaba had arranged marriages for him and Justice; dismayed, they fled to Johannesburg via Queenstown, arriving in April 1941.</li>
+          <li><strong>1950: </strong>Mandela took Xuma's place on the ANC national executive in March 1950, and that same year was elected national president of the ANCYL.</li>
+          <li><strong>1955: </strong>After taking part in the unsuccessful protest to prevent the forced relocation of all black people from the Sophiatown suburb of Johannesburg in February 1955.</li>
+          <li><strong>1962: </strong>On 5 August 1962, police captured Mandela along with fellow activist Cecil Williams near Howick.</li>
+          <li><strong>1964: </strong>In 1964, Mandela and his co-accused were transferred from Pretoria to the prison on Robben Island, remaining there for the next 18 years.</li>
+          <li><strong>1988: </strong>Recovering from tuberculosis exacerbated by the damp conditions in his cell, in December 1988, Mandela was moved to Victor Verster Prison near Paarl.</li>
+          <li><strong>1994: </strong>With the election set for 27 April 1994, the ANC began campaigning, opening 100 election offices and orchestrating People's Forums across the country at which Mandela could appear, as a popular figure with great status among black South Africans.</li>
+          <li><strong>2011: </strong>In February 2011, Mandela was briefly hospitalised with a respiratory infection, attracting international attention, before being re-admitted for a lung infection and gallstone removal in December 2012.</li>
+          <li><strong>2013: </strong>He died on the 5th of December 2013.</li>
+        </ul>
+    </div>
+
+    <div class="rip">
+      May your soul rest in peace Tata, we <i class="fas fa-heart heart"></i> you.
+    </div>
+    
+    <!-- Sliding qoutes -->
+    <div class="slideshow-container">
+      <div class="qoutes">My favourate qoutes of N.R Mandela</div>
+
+      <div class="my-slides">
+        <q>It always seems impossible until it's done</q>
+        <p class="author">- Nelson Mandela</p>
+      </div>
+
+      <div class="my-slides">
+        <q>Do not judge me by my successes, judge me by how many times I fell down and got back up again</q>
+        <p class="author">- Nelson Mandela</p>
+      </div>
+
+      <div class="my-slides">
+        <q>There can be no keener revelation of a society's soul than the way in which it treats its children</q>
+        <p class="author">- Nelson Mandela</p>
+      </div>
+
+      <div class="my-slides">
+        <q>Education is the most powerful weapon which you can use to change the world</q>
+        <p class="author">- Nelson Mandela</p>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <footer>
+      Learn more about the late Nelson Rolihlahla Mandela at <a id="tribute-link" href="https://en.wikipedia.org/wiki/Nelson_Mandela" target="_blank">wikipedia</a>
+    </footer>
+
+
+  </main>
+</div>
+  
+  <script src="/dist/js/app.js"></script>
+  <script src="/dist/js/bundle.js"></script>
+</body>
+</html>
