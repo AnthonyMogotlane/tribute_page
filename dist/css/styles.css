@@ -128,4 +128,20 @@ footer {
   font-weight: 600;
 }
 
+@media screen and (max-width: 400px) {
+  #title h1 {
+    font-size: 26px;
+  }
+
+  .rip {
+    text-align: center;
+    font-family: "East Sea Dokdo", cursive;
+    font-size: 20px;
+  }
+  .rip .heart {
+    color: red;
+    font-size: 15px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
