@@ -45,7 +45,7 @@ body {
 }
 
 #tribute-info {
-  font-family: 'Hanalei Fill', cursive;
+  font-family: 'Lobster', cursive;
   text-align: center;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .qoutes {
   text-align: center;
-  font-family: 'Hanalei Fill', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 28px;
 }
 
@@ -158,6 +158,15 @@ footer {
     h1 {
       font-size: 26px;
     }
+
+    p{
+      background-color: black;
+      color: white;
+      padding: 5px 5px 7px 5px;
+      color: #ccc;
+      opacity: .5;
+      font-size: 13px;
+    }
   }
 
   .rip {
@@ -169,5 +178,23 @@ footer {
       color: red;
       font-size: 15px;
     }
+  }
+
+  #tribute-info {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #img-caption {
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  .qoutes {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
   }
 }
